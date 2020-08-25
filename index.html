@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Podcasts Project</title>
+    <script
+      src="https://kit.fontawesome.com/912872772e.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./sass/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,500|IBM+Plex+Sans:400,600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="nav-bar">
+      <img class="logo-container" src="./images/logo.svg" alt="Podcasts logo" />
+      <input type="checkbox" id="chk-nav-bar" />
+      <ul class="menu-options">
+        <li><a class="menu-options-links" href="#Episodios">Episodios</a></li>
+        <li><a class="menu-options-links" href="#Nosotros">Nosotros</a></li>
+        <li>
+          <a class="menu-options-links" href="#Entrevistas">Entrevistas</a>
+        </li>
+        <li><a class="menu-options-links" href="#Topicos">Topicos</a></li>
+      </ul>
+      <label for="chk-nav-bar" id="burger-close" class="burger-close"
+        ><span>&#x2716;</span></label
+      >
+      <label for="chk-nav-bar" id="burger-open"
+        ><span class="hamburger">☰</span></label
+      >
+    </nav>
+
+    <section class="wellcome">
+      <p class="wellcome-title">
+        Hello <span style="text-decoration: line-through;">world</span> pale
+        blue dot.
+      </p>
+      <p class="wellcome-description">
+        El portal de podcasts que explora el mundo de la programación y la
+        tecnología. Nuevos episodios, todos los jueves cada 15 días.
+      </p>
+      <button class="wellcome-button">CONOCÉ MÁS</button>
+    </section>
+
+    <section id="Episodios" class="episode">
+      <svg
+        class="episode-backgound-top"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 100 100"
+        preserveAspectRatio="none"
+      >
+        <polygon fill="white" points="0,0 100,0 0,70" />
+      </svg>
+      <svg
+        class="episode-backgound-bottom"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 100 100"
+        preserveAspectRatio="none"
+      >
+        <polygon fill="white" points="100,100 100,0 0,100" />
+      </svg>
+      <p>Episodios</p>
+      <div class="pod">
+        <div class="pod1">
+          <iframe
+            class="podcast-spoty"
+            src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt"
+            frameborder="0"
+            allowtransparency="true"
+            allow="encrypted-media"
+          ></iframe>
+
+          <iframe
+            class="podcast-spoty"
+            src="https://open.spotify.com/embed-podcast/episode/6lzD9VWNM40HAxkVz0a8NX"
+            frameborder="0"
+            allowtransparency="true"
+            allow="encrypted-media"
+          ></iframe>
+        </div>
+        <div class="pod1">
+          <iframe
+            class="podcast-spoty"
+            src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD"
+            frameborder="0"
+            allowtransparency="true"
+            allow="encrypted-media"
+          ></iframe>
+
+          <iframe
+            class="podcast-spoty"
+            src="https://open.spotify.com/embed-podcast/episode/699xfioPvcnb6jf2aPmlds"
+            frameborder="0"
+            allowtransparency="true"
+            allow="encrypted-media"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+    <div class="flex">
+      <div class="imag-mobile">
+        <img class="mobile" src="./images/phone.png" alt="" />
+      </div>
+      <section id="Nosotros" class="nosotros">
+        <h2>De dónde venimos</h2>
+        <p>
+          Our posturings, our imagined self-importance, the delusion that we
+          have some privileged position in the Universe, are challenged by this
+          point of pale light.
+        </p>
+        <p>
+          Our planet is a lonely speck in the great enveloping cosmic dark. In
+          our obscurity, in all this vastness, there is no hint that help will
+          come from elsewhere to save us from ourselves.
+        </p>
+      </section>
+    </div>
+    <section id="Entrevistas" class="entrevistas">
+      <div>
+        <h2>Invitadas/os estelares</h2>
+      </div>
+      <div class="fotos">
+        <div class="linea1">
+          <div>
+            <img class="foto1" src="./images/grace-hopper.png" alt="" />
+          </div>
+          <div>
+            <img class="foto1" src="./images/Katie-Bouman.png" alt="" />
+          </div>
+          <div>
+            <img class="foto1" src="./images/Margaret_Hamilton.png" alt="" />
+          </div>
+        </div>
+        <div class="linea2">
+          <div>
+            <img
+              class="foto1"
+              src="./images/An E.R.A.Univac 1103 computer in the 1950s.png"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              class="foto1"
+              src="./images/Computer operators with an Eniac — the world’s first programmable general-purpose computer.png"
+              alt=""
+            />
+          </div>
+          <div><img class="foto1" src="./images/susan-kare.png" alt="" /></div>
+        </div>
+      </div>
+    </section>
+    <section class="temas" id="temas">
+      <div>
+        <h2>Algunos de nuestros temas</h2>
+      </div>
+      <div class="box-icon">
+        <div class="boxi box1">
+          <img class="icon" src="./images/icon1.svg" alt="" />
+          <h3>Trabajo remoto</h3>
+        </div>
+        <div class="boxi">
+          <img class="icon" src="./images/icon2.svg" alt="" />
+          <h3>Repensando la programación</h3>
+        </div>
+        <div class="boxi">
+          <img class="icon" src="./images/icon3.svg" alt="" />
+          <h3>Bases del código</h3>
+        </div>
+        <div class="boxi">
+          <img class="icon" src="./images/icon4.svg" alt="" />
+          <h3 class="tp">Seguridad informática</h3>
+        </div>
+      </div>
+    </section>
+    <section class="topicos" id="Topicos">
+      <svg
+        class="topicos-backgound-top"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 100 100"
+        preserveAspectRatio="none"
+      >
+        <polygon fill="white" points="0,0 100,0 0,70" />
+      </svg>
+      <p>¿Querés las ultimas novedades?</p>
+      <button class="two-button">ESCUCHÁ LOS EPISODIOS</button>
+    </section>
+    <footer class="foot">
+      <div><p>© 2019— Hello blue pale dot</p></div>
+      <div class="iconsf">
+        <div class="f1"><i class="fab fa-spotify"></i></div>
+        <div class="f1"><i class="fab fa-instagram"></i></div>
+        <div class="f1"><i class="fab fa-twitter"></i></div>
+        <div class="f1"><i class="fab fa-facebook"></i></div>
+        <div class="f1"><i class="fab fa-telegram"></i></div>
+      </div>
+    </footer>
+  </body>
+</html>
