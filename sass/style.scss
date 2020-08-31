@@ -119,7 +119,7 @@
 /*Episode section*/
 .episode {
   position: relative;
-  height: 1000.5px;
+  height: 1100.5px;
   background-image: linear-gradient(#0000ff, #0000a3);
 }
 
@@ -163,9 +163,8 @@
 .podcast-spoty {
   display: flex;
   justify-content: center;
-  width: 90%;
-  margin: 11px;
-  height: 160px;
+  width: 85%;
+  height: 225px;
 }
 /* Nosotros */
 .imag-mobile {
@@ -176,9 +175,9 @@
 }
 .mobile {
   height: 519px;
-  width: 100%;
+  width: 90%;
   position: absolute;
-  margin-top: -50px;
+  margin-top: -35px;
 }
 /* Section Nosotros */
 .nosotros h2 {
@@ -217,9 +216,7 @@
   height: 243px;
   display: flex;
 }
-.entrevistas .fotos .linea2 {
-  margin-top: -5px;
-}
+
 /* Temas */
 .temas h2 {
   font-family: "IBM Plex Sans", monospace;
@@ -227,14 +224,23 @@
   color: #060a24;
   letter-spacing: 0;
   line-height: 42px;
-  margin: 16px;
+  margin: 42px 16px 37px 16px;
 }
-.box-icon {
+.temas h3 {
   font-family: "IBM Plex Sans", monospace;
   font-size: 24px;
   color: #060a24;
   letter-spacing: 0;
   text-align: center;
+}
+.box-icon {
+  text-align: center;
+  margin-bottom: 42px;
+}
+.box-icon .icon1 {
+  height: 104px;
+  width: 104px;
+  margin-bottom: 13px;
 }
 .box-icon .icon {
   height: 104px;
@@ -242,14 +248,13 @@
   margin-top: 49px;
   margin-bottom: 13px;
 }
-.box-icon .tp {
-  margin-bottom: 42px;
+.box-icon .boxi {
+  margin-bottom: 12px;
 }
-
 /* Topicos */
 .topicos {
   position: relative;
-  margin-top: 24x;
+  margin-top: 65xp;
   height: 341px;
   background-image: linear-gradient(225deg, #0000ff 0%, #0000a3 100%);
 }
@@ -299,10 +304,10 @@
 .iconsf {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .f1 {
   margin-left: 20px;
   margin-right: 20px;
-  padding-bottom: 31px;
 }
 @import "mobile";

@@ -125,7 +125,7 @@
 /*Episode section*/
 .episode {
   position: relative;
-  height: 1000.5px;
+  height: 1100.5px;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#0000ff), to(#0000a3));
   background-image: linear-gradient(#0000ff, #0000a3);
 }
@@ -189,9 +189,8 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 90%;
-  margin: 11px;
-  height: 160px;
+  width: 85%;
+  height: 225px;
 }
 
 /* Nosotros */
@@ -210,9 +209,9 @@
 
 .mobile {
   height: 519px;
-  width: 100%;
+  width: 90%;
   position: absolute;
-  margin-top: -50px;
+  margin-top: -35px;
 }
 
 /* Section Nosotros */
@@ -264,10 +263,6 @@
   display: flex;
 }
 
-.entrevistas .fotos .linea2 {
-  margin-top: -5px;
-}
-
 /* Temas */
 .temas h2 {
   font-family: "IBM Plex Sans", monospace;
@@ -275,15 +270,26 @@
   color: #060a24;
   letter-spacing: 0;
   line-height: 42px;
-  margin: 16px;
+  margin: 42px 16px 37px 16px;
 }
 
-.box-icon {
+.temas h3 {
   font-family: "IBM Plex Sans", monospace;
   font-size: 24px;
   color: #060a24;
   letter-spacing: 0;
   text-align: center;
+}
+
+.box-icon {
+  text-align: center;
+  margin-bottom: 42px;
+}
+
+.box-icon .icon1 {
+  height: 104px;
+  width: 104px;
+  margin-bottom: 13px;
 }
 
 .box-icon .icon {
@@ -293,14 +299,14 @@
   margin-bottom: 13px;
 }
 
-.box-icon .tp {
-  margin-bottom: 42px;
+.box-icon .boxi {
+  margin-bottom: 12px;
 }
 
 /* Topicos */
 .topicos {
   position: relative;
-  margin-top: 24x;
+  margin-top: 65xp;
   height: 341px;
   background-image: linear-gradient(225deg, #0000ff 0%, #0000a3 100%);
 }
@@ -362,18 +368,25 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .f1 {
   margin-left: 20px;
   margin-right: 20px;
-  padding-bottom: 31px;
 }
 
 @media only screen and (min-width: 768px) {
   #buger-closer,
   #burger-open {
     display: none;
+  }
+  .logo-container {
+    width: 36px;
+    height: 36px;
+    padding: 10px 16px;
   }
   .menu-options {
     display: -webkit-box;
@@ -464,11 +477,11 @@
   }
   .episode p {
     position: absolute;
-    top: 168px;
+    top: 186px;
     left: 200px;
     font-family: "IBM Plex Sans", monospace;
     color: #ffffff;
-    font-size: 36px;
+    font-size: 48px;
     letter-spacing: 0px;
     line-height: 42px;
   }
@@ -498,39 +511,40 @@
   }
   .podcast-spoty {
     /* display: flex; */
-    width: 80%;
+    width: 40%;
     height: 232px;
-    margin-bottom: 50px;
-    margin-right: 50px;
-    margin-left: 50px;
+    margin: 0 36px 72px 36px;
   }
   /* Nosotos */
   .imag-mobile {
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     height: 400px;
     width: 50%;
   }
   .mobile {
-    height: 550px;
+    height: 650px;
     width: 25%;
-    margin-top: -70px;
-    margin-left: 200px;
   }
   .flex {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    height: 500px;
   }
   .nosotros {
     width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .nosotros h2 {
     text-align: start;
-  }
-  .nosotros h2 {
-    margin-top: 64px;
   }
   .nosotros p {
     font-family: "IBM Plex Mono", monospace;
@@ -581,20 +595,33 @@
     color: #060a24;
     letter-spacing: 0;
     margin-top: 64px;
+    margin-bottom: 69px;
   }
   .box-icon {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    justify-items: center;
-    -ms-flex-line-pack: center;
-        align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-  .box-icon .box1 {
-    margin-left: 200px;
-  }
-  .boxi {
-    margin: 00px;
+  .box-icon .boxi {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     width: 260px;
   }
   .box-icon .boxi h3 {
@@ -603,8 +630,10 @@
     color: #060a24;
     letter-spacing: 0;
     text-align: center;
-    margin-left: 20px;
     width: 220px;
+  }
+  .box-icon .boxi .t1 {
+    padding-top: 30px;
   }
   /* Topicos */
   .topicos {
