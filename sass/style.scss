@@ -4,7 +4,7 @@
   border: 0px;
 }
 
-.logo-container {
+.logo {
   width: 24px;
   height: 24px;
   padding: 10px 16px;
@@ -89,6 +89,7 @@
   color: #060a24;
   letter-spacing: 0;
   line-height: 42px;
+  font-weight: lighter;
 }
 
 .wellcome-description {
@@ -119,7 +120,7 @@
 /*Episode section*/
 .episode {
   position: relative;
-  height: 1100.5px;
+  height: 1203.5px;
   background-image: linear-gradient(#0000ff, #0000a3);
 }
 
@@ -137,36 +138,36 @@
   height: 10vw;
 }
 
-.episode p {
+.episode h2 {
+  font-weight: lighter;
   position: absolute;
   top: 64px;
   left: 16px;
   font-family: "IBM Plex Sans", monospace;
-  color: #ffffff;
   font-size: 36px;
-  letter-spacing: 0px;
+  color: #ffffff;
+  letter-spacing: 0;
   line-height: 42px;
 }
 .pod {
   display: flex;
   flex-direction: column;
-  padding-top: 127px;
+  padding: 127px 0 0 0;
 }
 
 .pod1 {
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
 }
 
 .podcast-spoty {
   display: flex;
   justify-content: center;
-  width: 85%;
-  height: 225px;
+  width: 98%px;
+  height: 232px;
+  margin: 6px 6px 0 6px;
 }
-/* Nosotros */
+/* Nosotros section */
 .imag-mobile {
   display: flex;
   justify-content: center;
@@ -179,8 +180,8 @@
   position: absolute;
   margin-top: -35px;
 }
-/* Section Nosotros */
 .nosotros h2 {
+  font-weight: lighter;
   font-family: "IBM Plex Sans", monospace;
   font-size: 36px;
   color: #060a24;
@@ -198,12 +199,13 @@
   line-height: 22px;
   margin: 16px;
 }
-/* Entrevistas */
+/* Entrevistas section*/
 .entrevistas {
   display: flex;
   flex-direction: column;
 }
 .entrevistas h2 {
+  font-weight: lighter;
   font-family: "IBM Plex Sans", monospace;
   font-size: 36px;
   color: #060a24;
@@ -215,10 +217,12 @@
   width: 100%;
   height: 243px;
   display: flex;
+  flex-direction: column;
 }
 
-/* Temas */
-.temas h2 {
+/* Topicos section*/
+.topicos h2 {
+  font-weight: lighter;
   font-family: "IBM Plex Sans", monospace;
   font-size: 36px;
   color: #060a24;
@@ -226,7 +230,7 @@
   line-height: 42px;
   margin: 42px 16px 37px 16px;
 }
-.temas h3 {
+.topicos h3 {
   font-family: "IBM Plex Sans", monospace;
   font-size: 24px;
   color: #060a24;
@@ -251,20 +255,21 @@
 .box-icon .boxi {
   margin-bottom: 12px;
 }
-/* Topicos */
-.topicos {
+/* Section*/
+.temas {
   position: relative;
   margin-top: 65xp;
   height: 341px;
   background-image: linear-gradient(225deg, #0000ff 0%, #0000a3 100%);
 }
-.topicos-backgound-top {
+.temas-backgound-top {
   position: absolute;
   top: 0;
   width: 100%;
   height: 10vw;
 }
-.topicos p {
+.temas h2 {
+  font-weight: lighter;
   font-family: "IBM Plex Sans", monospace;
   font-size: 36px;
   color: #ffffff;
@@ -287,11 +292,11 @@
   line-height: 22px;
 }
 /* Footer */
-.foot {
+.footer {
   align-items: center;
   height: 133px;
 }
-.foot p {
+.footer p {
   font-family: "IBM Plex Mono", monospace;
   font-size: 14px;
   color: #060a24;
@@ -306,8 +311,11 @@
   justify-content: center;
   align-items: center;
 }
+i {
+  color: black;
+}
 .f1 {
   margin-left: 20px;
   margin-right: 20px;
 }
-@import "mobile";
+@import "desktop";
